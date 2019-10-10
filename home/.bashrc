@@ -12,5 +12,6 @@ alias ls='ls -hFG'
 alias ll='ls -lA'
 alias la='ls -AG'
 
-source "$HOME/.homesick/repos/homeshick/homeshick.sh"
-source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
+export HOMESHICK_DIR=/usr/local/opt/homeshick
+source "/usr/local/opt/homeshick/homeshick.sh"
+
